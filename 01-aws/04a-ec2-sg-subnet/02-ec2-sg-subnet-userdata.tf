@@ -15,3 +15,7 @@ subnet_id = aws_subnet.zhenxing-vpc-pb-1b.id
     sudo systemctl start httpd
   EOF
 }
+
+data "aws_key_pair" "keypair" {
+  key_name = "zhenxing2"
+}
