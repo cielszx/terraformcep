@@ -3,6 +3,6 @@ resource "aws_instance" "tier-front" {
   instance_type = "t3a.micro"
 
   tags = {
-    Name = "terraform-ec2-rajesh"
+    Name = "terraform-ec2-zhenxing"
   }
 }

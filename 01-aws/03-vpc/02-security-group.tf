@@ -1,5 +1,5 @@
-resource "aws_security_group" "rajesh-vpc-sg" {
-    vpc_id = aws_vpc.rajesh-vpc.id
+resource "aws_security_group" "zhenxing-vpc-sg" {
+    vpc_id = aws_vpc.zhenxing-vpc.id
   egress {
     from_port   = 0
     to_port     = 0
@@ -35,6 +35,6 @@ resource "aws_security_group" "rajesh-vpc-sg" {
     cidr_blocks = ["0.0.0.0/0"]
   }
   tags={
-    Name = "rajesh-vpc-sg-main"
+    Name = "zhenxing-vpc-sg-main"
   }
 }

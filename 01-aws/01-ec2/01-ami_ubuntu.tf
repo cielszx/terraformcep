@@ -19,6 +19,6 @@ resource "aws_instance" "web" {
   instance_type = "t3a.micro"
 
   tags = {
-    Name = "terraform-ubuntu-rajesh"
+    Name = "terraform-ubuntu-zhenxing"
   }
 }
